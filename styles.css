@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: Helvetica;
+    font-family: avenir;
     background-color: rgb(233, 233, 233);
 }
 
@@ -42,8 +42,6 @@ body {
 
 /* blog page */
 
-/* two unequal columns that float next to each other */
-
 /* left column */
 
 .leftcolumn {
@@ -65,7 +63,7 @@ body {
 .fakeimg {
     background-color: #aaa;
     width: 100%;
-    padding: 20px;
+    padding: 0px;
 }
 
 .card {
