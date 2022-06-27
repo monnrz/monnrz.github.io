@@ -87,3 +87,19 @@ body {
     background: #ddd;
     margin-top: 20px;
   }
+
+  /* about me image */
+
+  .aboutmeimg {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  /* blog image */
+
+  .blogimg {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
