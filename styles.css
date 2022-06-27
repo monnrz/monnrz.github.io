@@ -18,6 +18,10 @@ body {
     width: 100% 
 }
 
+.navbar-right {
+  float: right;
+}
+
 .navbar a {
     float: left;
     display: block;
@@ -27,9 +31,14 @@ body {
     text-decoration: none;
   }
 
+
 .navbar a:hover {
     background: #ddd;
     color: black;
+  }
+
+  .navbar a .stack {
+    float: right;
   }
 
 /* header */
