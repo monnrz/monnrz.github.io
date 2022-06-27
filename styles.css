@@ -47,15 +47,16 @@ body {
 .leftcolumn {
     float: left;
     width: 70%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 /* right column */
 
 .rightcolumn {
-    float: left;
-    width: 20%;
-    padding-left: 10px;
+    float: right;
+    width: 24%;
+    padding-left: 20px;
+    padding-right: 2%;
 }
 
 /* placeholder for image */
@@ -69,7 +70,7 @@ body {
 .card {
     background-color: white;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .row:after {
