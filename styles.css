@@ -51,6 +51,8 @@ body {
 
   /* footer */
 
+  /* !!! i need to remove the boarder around the footer */
+
 .footer img {
   max-width: 100%;
   height: auto;
@@ -125,4 +127,31 @@ body {
   .card img {
     width: 100%;
     height: auto;
+  }
+
+  /* full stack goals */
+
+  /* progress bar*/
+
+  #myprogress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #mybar1 {
+    width: 9%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center; 
+    line-height: 30px; 
+    color: rgb(0, 0, 0); 
+  }
+
+  #mybar2 {
+    width: 100%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center; 
+    line-height: 30px; 
+    color: rgb(0, 0, 0); 
   }
