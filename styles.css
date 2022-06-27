@@ -40,6 +40,13 @@ body {
     height: auto;
   }
 
+  /* footer */
+
+.footer img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* blog page */
 
 /* left column */
