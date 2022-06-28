@@ -89,6 +89,7 @@ body {
     background-color: white;
     padding: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -132,14 +133,14 @@ body {
 
   /* full stack goals */
 
-  /* progress bar*/
+  /* progress bar full stack */
 
-  #myprogress {
+  #fullstackprogress {
     width: 100%;
     background-color: grey;
   }
   
-  #mybar1 {
+  #fullstackbar {
     width: 9%;
     height: 30px;
     background-color: #04AA6D;
@@ -148,7 +149,14 @@ body {
     color: rgb(0, 0, 0); 
   }
 
-  #mybar2 {
+   /* progress bar ruby */
+
+  #rubyprogress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #rubybar {
     width: 100%;
     height: 30px;
     background-color: #04AA6D;
@@ -156,3 +164,63 @@ body {
     line-height: 30px; 
     color: rgb(0, 0, 0); 
   }
+  
+     /* progress bar JS */
+
+     #jsprogress {
+      width: 100%;
+      background-color: grey;
+    }
+    
+    #jsbar {
+      width: 34%;
+      height: 30px;
+      background-color: #04AA6D;
+      text-align: center; 
+      line-height: 30px; 
+      color: rgb(0, 0, 0); 
+    }
+
+    /* portfolio grid */
+
+    /* blog page */
+
+/* left column */
+
+.leftbox {
+  float: left;
+  width: 30%;
+  padding-left: 2%;
+}
+
+/* middlebox */
+
+.middlebox {
+  float: middle;
+  width: 30%;
+  padding-left: 2%;
+}
+
+
+/* right column */
+
+.rightbox {
+  float: right;
+  width: 30%;
+  padding-left: 20px;
+  padding-right: 2%;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
