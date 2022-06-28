@@ -91,13 +91,14 @@ body {
     margin-top: 30px;
 }
 
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Footer */
+/* footer */
 
 .footer {
     padding: 20px;
@@ -154,4 +155,11 @@ body {
     text-align: center; 
     line-height: 30px; 
     color: rgb(0, 0, 0); 
+  }
+
+  pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
   }
