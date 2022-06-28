@@ -117,7 +117,7 @@ body {
 
   /* blog image */
 
-  .blogimg {
+  .bloging {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -127,6 +127,11 @@ body {
 
   .card img {
     width: 100%;
+    height: auto;
+  }
+
+  .card img .project {
+    width: 50%;
     height: auto;
   }
 
@@ -157,9 +162,4 @@ body {
     color: rgb(0, 0, 0); 
   }
 
-  pre code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-  }
+  
